@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-size: 62.5%;
+    width: 480px;
+}
+.encabezado {
+    background-color: black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.encabezado .image {
+    width: 20%;
+    height: 100%;
+}
+.section {
+    background-color: #509BF5;
+   
+   padding: 150px 20px 20px 20px;
+   color: white;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+}
+.section .titulo {
+    font-size: 5.5rem;
+    
+    
+}
+.section .boton {
+    background-color: green;
+}
