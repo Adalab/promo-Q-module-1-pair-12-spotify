@@ -5,9 +5,8 @@
 }
 html {
     font-size: 62.5%;
-    width: 480px;
 }
-.encabezado {
+.header {
     background-color: black;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -16,56 +15,86 @@ html {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
+    position: sticky;
+    top: 0;
 }
-.encabezado .image {
+.logo-image {
     width: 20%;
     height: 100%;
 }
-.section {
+.button-image {
+    width: 25%;
+    height: 100%;
+}
+.hero {
     background-color: #509BF5;
+   height: 50%;
    
-   padding: 150px 20px 20px 20px;
    color: white;
    width: 100%;
    display: flex;
    flex-direction: column;
+   justify-content: last baseline;
    align-content: center;
 }
-.section .titulo {
-    font-size: 5.5rem;
-    margin-bottom: 15px;
-    
-    
+.hero-title {
+    font-size: 3.8rem;
+    padding: 5px 10px;
+    margin-top: 100px;;
+     
 }
-.section .boton {
-    background-color: green;
+.hero-subtitle{
+    font-size: 2.1rem;
+    padding: 5px 10px;
+}
+.hero-button {
+    background-color: rgb(8, 208, 8);
     border-radius: 20px;
     color: white;
     border: none;
+    padding: 10px 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.hero-text {
+    font-size: 1.1rem;
     padding: 10px;
-    margin: 15px 0px;
-}
-.section .paragraph {
-    margin-top: 40px;
-padding-top: 30px;
+    margin-bottom: 15px;
+    
 }
 
-.main {
-    margin: 30px 20px 40px 20px;
+.beneficies {
+    padding: 30px 20px 40px 20px;
+}
+.beneficies-title {
+    text-align: center;
+    font-size: 2.4rem;
 }
 
-.main .lista {
+.l.beneficies-list {
+    padding: 10px;
+    
     display: flex;
     flex-direction: column;
 }
-.main .lista .item1 {
+.beneficies-item {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    padding: 10px;
+    margin: 20px;
 }
-
-img .main .lista .item1 {
-    height: 30px;
-    width: 30px;
+.beneficies-item img {
+    width: 60px;
+    height: 60px;
+    
 }
+.texto-item {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 10px;
+    
 
+}
