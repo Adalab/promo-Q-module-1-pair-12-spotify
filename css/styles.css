@@ -184,11 +184,12 @@ html {
         display: contents;
     }
     .hero {
-        background-image: url(https://github.com/Adalab/promo-Q-module-1-pair-12-spotify/blob/main/Images/premium_dancer.png?raw=true);
-        background-position: center;
-        background-size: cover;
+        background-image: url(https://github.com/Adalab/promo-Q-module-1-pair-12-spotify/blob/main/Images/premium_dancer.png?raw=true) ;
+        background-position: right;
+        background-size: contain;
         background-repeat: no-repeat;
-        
+        background-attachment: fixed;
+        height: 50vh;
     }
     .hero-button {
        width: 22vw; 
